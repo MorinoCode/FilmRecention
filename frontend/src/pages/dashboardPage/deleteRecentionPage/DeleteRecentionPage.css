@@ -1,0 +1,53 @@
+.delete-recension-container {
+  max-width: 700px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #fff;
+  font-family: Arial, sans-serif;
+}
+
+.recension-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.recension-item {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px 0;
+  border-bottom: 1px solid #ccc;
+}
+
+.recension-item p {
+  margin: 0;
+  max-width: 80%;
+  word-break: break-word;
+}
+
+.recension-item button {
+  padding: 6px 12px;
+  border: 1px solid #333;
+  background-color: red !important;
+  cursor: pointer;
+  border-radius: 3px;
+}
+
+.recension-item button:hover {
+  background-color: rgb(252, 82, 82) !important;
+}
+
+/* Responsivitet för små skärmar */
+@media (max-width: 600px) {
+  .recension-item {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .recension-item button {
+    margin-top: 8px;
+    width: 100%;
+  }
+}

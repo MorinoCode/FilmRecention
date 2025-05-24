@@ -1,0 +1,28 @@
+.home {
+  padding: 1rem;
+  text-align: center;
+}
+.home h1{
+  color: white ;
+}
+.home h2{
+  color: white ;
+}
+.about-section {
+  color: white;
+  margin: 4rem 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.about-section img {
+  width: 300px;
+  border-radius: 1rem;
+}
+
+.about-section div {
+  max-width: 500px;
+  text-align: left;
+}
